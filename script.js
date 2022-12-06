@@ -14,7 +14,7 @@ function loveOutput() {
     statementBox.innerText = `Please enter atleast 3 letters`;
   } else {
     const percentage = lovePercentage(name1, name2);
-    percentBox.innerText = `${name1} and ${name2}'s love percentage is ${percentage}% :)`;
+    percentBox.innerText = `${name1} and ${name2}'s love percentage is ${percentage}%.`;
     if (percentage >= 0 && percentage < 20) {
       statementBox.innerText = `The relationship is very bad. 🥲`;
     } else if (percentage >= 20 && percentage <= 50) {
